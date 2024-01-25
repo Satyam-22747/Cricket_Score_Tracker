@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:background="#AEEA00">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team 1"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:text="Runs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="60dp"
+        android:text="Overs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:text="Wickets"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:id="@+id/run_text"
+        android:background="@color/white"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:id="@+id/over_text"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@color/white"/>
+    <TextView
+    android:layout_width="60dp"
+    android:layout_height="30dp"
+        android:id="@+id/wicket_text"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+    android:background="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="+1"
+            android:id="@+id/run_1btn"
+            android:background="@color/white"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="+2"
+            android:id="@+id/run_2btn"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"/>
+        <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+            android:text="+4"
+            android:id="@+id/run_4btn"
+            android:layout_marginTop="10dp"
+        android:background="@color/white"/>
+        <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+            android:text="+6"
+            android:id="@+id/run_6btn"
+        android:background="@color/white"
+            android:layout_marginTop="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Previous Run"
+            android:textAlignment="center"
+            android:id="@+id/Roll_back_run"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="+1 Ball"
+        android:id="@+id/balls_btn"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="+1 WKT"
+        android:id="@+id/wkt_btn"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:background="@color/white"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="Clear"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/clear_btnTeam1"
+            android:background="@color/white"/>
+</LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:background="#AEEA00">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team 2"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:text="Runs"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="60dp"
+                android:text="Overs"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:textSize="20sp"
+                android:text="Wickets"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="center"
+                android:id="@+id/run_text_team2"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/over_text_team2"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/wicket_text_team2"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:background="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="+1"
+                    android:id="@+id/run_1btn_team2"
+                    android:background="@color/white"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="+2"
+                    android:id="@+id/run_2btn_team2"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="+4"
+                    android:id="@+id/run_4btn_team2"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="+6"
+                    android:id="@+id/run_6btn_team2"
+                    android:background="@color/white"
+                    android:layout_marginTop="10dp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="Previous Run"
+                    android:textAlignment="center"
+                    android:id="@+id/Roll_back_run_team2"
+                    android:background="@color/white"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="+1 Ball"
+                android:id="@+id/balls_btn_team2"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="+1 WKT"
+                    android:id="@+id/wkt_btn_team2"
+                    android:textAlignment="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@color/white"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="Clear"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="80dp"
+                    android:id="@+id/clear_btn_team2"
+                    android:background="@color/white"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
